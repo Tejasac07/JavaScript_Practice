@@ -30,3 +30,31 @@ console.log(booleanIsLoggedIn);
 let toNumber = Number(letter);
 // You will get "NaN" as the output when you try to convert an string into a number
 console.log(toNumber);
+
+/*
+
+DataTypes
+
+Primitive DataType - There are 7 types
+- String
+- Number
+- Boolean
+- null
+- undefined
+- Symbol
+- BigInt
+
+Reference (Non primitive)
+- Array
+- Objects
+- functions
+
+
+***Important*** If you want to master JS, master both objects and browser's web events
+*/
+
+const bigNumber = 1232423423n;
+console.log(typeof bigNumber);
+
+const arr = [1, 2, 3, 4, 5];
+console.log("The array type is " + typeof arr);
