@@ -42,7 +42,7 @@ const dc = ["BatMan", "Flash", "SuperMan"];
 marvel.push(dc);
 console.log(marvel);
 
-// So we will use concat feature to add to arrays so that it returns a single array will all the values
+// So we will use concat feature to add to arrays so that it returns a single array with all the values
 const marvel1 = ["IronMan", "SpiderMan", "Hulk"];
 const dc1 = ["BatMan", "Flash", "SuperMan"];
 const newArr = marvel1.concat(dc1);
